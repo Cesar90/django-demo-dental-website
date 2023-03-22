@@ -1,0 +1,15 @@
+Create a new env => python3 -m venv ./venv 
+Activate env => source ./venv/bin/activate
+Install django with pip inside of env => pip install django==3.0.2
+Show some command => django-admin help
+Start new project => django-admin startproject dental .
+Show some command with django => python manage.py help
+
+===RUN SERVER===
+Run server => python manage.py runserver
+
+===Migrate Database===
+Migrate database => python manage.py migrate
+
+===Add new App===
+python manage.py startapp website
